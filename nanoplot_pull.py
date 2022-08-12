@@ -16,4 +16,5 @@ from itertools import islice
 with open('NanoStats.txt') as file:
     for read_length in islice(file, 1, 2):
         print(read_length[31:39])
+
 print(read_length[31:39])
