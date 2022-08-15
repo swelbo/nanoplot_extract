@@ -45,4 +45,4 @@ with open('NanoStats.txt') as file:
          h = (float(total_bases[25:39].replace(",","")))
 
 #x = mean_length[31:39] + " " + mean_quality[35:39] 
-print(type(a))#,b,c,d,e,f,g,h)
+print(a,b,c,d,e,f,g,h)
